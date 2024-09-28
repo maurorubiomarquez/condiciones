@@ -1,0 +1,89 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.home {
+    display: flex; /* Establecemos que el elemento con clase "home" utilizará Flexbox */
+    flex-wrap: wrap; /* Permitimos que los elementos se envuelvan en una nueva línea si no caben en la misma */
+    justify-content: space-between; /* Distribuimos los elementos de manera que haya un espacio igual entre ellos */
+  }
+
+.home h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom:4px ;
+    padding: 10px;
+}
+  
+  .home > div { /* Seleccionamos los elementos div dentro de la clase "home" */
+    flex-basis: 95%; /* Establecemos que cada elemento div tendrá un ancho base del 95% */
+    margin: 20px; /* Agregamos un margen de 20px a cada elemento div */
+    padding: 20px; /* Agregamos un padding de 20px a cada elemento div */
+    background-color: #f7f7f7; /* Agregamos un fondo claro a cada elemento div */
+    border: 1px solid #ddd; /* Agregamos un borde gris claro a cada elemento div */
+}
+
+/* Problema 1: Imagen con borde */
+#problema1 img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+
+.borde-rojo {
+    border: 2px solid red;
+}
+
+/* Problema 2: Contador de stickers */
+.sticker-container {
+    margin: 10px 0;
+}
+
+.sticker-container img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.sticker-input {
+    width: 50px;
+}
+
+/* Problema 3: Validar contraseña */
+#problema3 select {
+    width: 50px;
+    margin: 5px;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+}
+
+/* Footer */
+.footer {
+    background-color: burlywood;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer a:hover {
+    color: #ccc;
+}
+
+.footer .text-center {
+    margin-top: 20px;
+}

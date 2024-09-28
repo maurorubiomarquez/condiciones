@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío Condiciones</title>
+    <link rel="stylesheet" href="./aseert/css/estilos.css">
+</head>
+<body>
+
+        <!-- Sección principal -->
+        <section id="home" class="home">
+            <div>
+                <h1>Bienvenido a mi página Desafío Condiciones</h1>
+             </div>
+            <div>
+                <!-- Problema 1: Imagen con borde al hacer click -->
+                <section id="problema1">
+                    <h2>Problema 1: Click cambio Borde en imagen</h2>
+                    <img src="./aseert/img/img1.png" alt="Imagen problema 1">
+                </section>
+            </div>
+            <div>
+                <!-- Problema 2: Contador de stickers -->
+                <section id="problema2">
+                    <h2>Problema 2: Contar stickers</h2>
+                    <div class="sticker-container">
+                        <img src="./aseert/img/img4.jpeg" alt="Sticker 1">
+                        <input class="sticker-input" type="number" min="0" max="10" placeholder="0">
+                    </div>
+                    <div class="sticker-container">
+                        <img src="./aseert/img/img5.jpeg" alt="Sticker 2">
+                        <input class="sticker-input" type="number" min="0" max="10" placeholder="0">
+                    </div>
+                    <div class="sticker-container">
+                        <img src="./aseert/img/img6.jpeg" alt="Sticker 3">
+                        <input class="sticker-input" type="number" min="0" max="10" placeholder="0">
+                    </div>
+                    <button id="calcular">Calcular stickers</button>
+                    <p id="resultado2"></p>
+                </section>
+             </div>
+
+             <div>
+                <!-- Problema 3: Validar contraseña con select -->
+                <section id="problema3">
+                    <h2>Problema 3: Validar contraseña</h2>
+                    <div>
+                        <select id="select1">
+                            <option value="1">1</option>
+                            <option value="9">9</option>
+                            <option value="7">7</option>
+                        </select>
+                        <select id="select2">
+                            <option value="1">1</option>
+                            <option value="3">3</option>
+                            <option value="1">1</option>
+                        </select>
+                        <select id="select3">
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <button id="ingresar">Validar</button>
+                    <p id="resultado3"></p>
+                </section>
+
+             </div>
+        </section>
+
+        <div>
+            <!-- Footer -->
+                <footer class="footer">
+                    <div class="container">
+                        <p class="text-center">© Mauricio Rubio - Full Stack JS 2024. Todos los derechos reservados..</p>
+                    </div>
+                </footer>         
+        </div>
+
+    <script src="./aseert/js/scripts.js"></script>
+</body>
+</html>
